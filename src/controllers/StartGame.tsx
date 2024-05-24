@@ -5,7 +5,6 @@ import { useEffect } from 'react';
 import { update } from '../state/difficulty';
 import { setGameState } from '../state/gameState';
 import { setBestScore } from '../state/bestScore';
-import { setIsVictory } from '../state/isVictory';
 import hoverClickAudio from '/audio/hover_click.mp3';
 import DifficultyButton from '../components/DifficultyButton';
 
@@ -20,7 +19,6 @@ export default function StartGame(): React.ReactElement {
 		const newDifficulty = e.currentTarget.value;
 		dispatch(update(newDifficulty));
 		dispatch(setBestScore(0));
-		dispatch(setIsVictory(false));
 	}
 
 	useEffect(() => {
