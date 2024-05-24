@@ -1,2 +1,5 @@
 # Overwatch card game 
-#Live 
+# Live https://overwatch-card-game.netlify.app/
+Fanmade card memory game, based on Overwatch2 game.
+ Stack: React, TypeScript, Redux, Framer motion, Tilt
+  
