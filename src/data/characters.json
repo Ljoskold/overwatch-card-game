@@ -1,0 +1,82 @@
+[
+	{
+		"name": "Ana",
+		"img": "/character_images/ana.webp"
+	},
+	{
+		"name": "Doomfist",
+		"img": "/character_images/doom.webp"
+	},
+	{
+		"name": "DVA",
+		"img": "/character_images/dva.webp"
+	},
+	{
+		"name": "Genji",
+		"img": "/character_images/genji.webp"
+	},
+	{
+		"name": "Hanzo",
+		"img": "/character_images/hanzo.webp"
+	},
+	{
+		"name": "Junkrat",
+		"img": "/character_images/junk.webp"
+	},
+	{
+		"name": "Kiriko",
+		"img": "/character_images/kiriko.webp"
+	},
+	{
+		"name": "Lucio",
+		"img": "/character_images/lucio.webp"
+	},
+	{
+		"name": "McRee",
+		"img": "/character_images/mcree.webp"
+	},
+	{
+		"name": "Mei",
+		"img": "/character_images/mei.webp"
+	},
+	{
+		"name": "Mercy",
+		"img": "/character_images/mercy.webp"
+	},
+	{
+		"name": "Moira",
+		"img": "/character_images/moira.png"
+	},
+	{
+		"name": "Reaper",
+		"img": "/character_images/reaper.webp"
+	},
+	{
+		"name": "Reinhardt",
+		"img": "/character_images/rein.webp"
+	},
+	{
+		"name": "Soldier 76",
+		"img": "/character_images/soldier_76.webp"
+	},
+	{
+		"name": "Torbjorn",
+		"img": "/character_images/torb.webp"
+	},
+	{
+		"name": "Tracer",
+		"img": "/character_images/tracer.webp"
+	},
+	{
+		"name": "Widow",
+		"img": "/character_images/widow.webp"
+	},
+	{
+		"name": "Winston",
+		"img": "/character_images/winston.webp"
+	},
+	{
+		"name": "Zen",
+		"img": "/character_images/zen.webp"
+	}
+]

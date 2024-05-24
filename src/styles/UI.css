@@ -1,0 +1,37 @@
+.score-board {
+	display: flex;
+	width: 400px;
+	height: 100px;
+	flex-direction: row;
+	border-radius: 5px;
+	background: #303c46eb;
+	font-size: 2rem;
+	position: absolute;
+	right: 0;
+	margin: 50px 50px 0 0;
+	box-shadow: 0px 0px 15px black;
+	user-select: none;
+}
+.score-wrapper {
+	font-family: Big Noodle Too;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #b3f9ff;
+	width: 200px;
+}
+.score-board > .score-wrapper:first-child::after {
+	content: '';
+	height: 80%;
+	position: absolute;
+	right: 50%;
+	border-right: 1px solid rgb(215 152 116);
+}
+
+.best-score-value {
+	color: #7cd570;
+}
+.current-score-value {
+	color: #d9e656;
+}

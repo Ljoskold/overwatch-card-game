@@ -1,0 +1,48 @@
+.rules-pop-up {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #303c46eb;
+	border-radius: 5px;
+	padding: 20px 20px 20px 40px;
+	font-family: Big Noodle Too;
+	letter-spacing: 2px;
+	gap: 5px;
+	width: 500px;
+	position: relative;
+	transform: translateX(-30px);
+}
+.rules-pop-up::after {
+	content: '';
+	border-left: 20px solid transparent;
+	border-top: 20px solid #303c46eb;
+	position: absolute;
+	bottom: -15px;
+	right: 0;
+	z-index: -1;
+}
+.rules-pop-up h3 {
+	color: #f58311;
+	font-size: 1.6rem;
+	margin: 0;
+}
+.rules-list {
+	font-size: 1.3rem;
+	color: #b3c0ff;
+	margin: 0;
+	padding: 0;
+}
+.rules-list li::marker {
+	color: orange;
+}
+.rules-list span {
+	color: #fa2a2a;
+}
+.rules-pop-up img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 150px;
+	height: 100px;
+	object-position: center;
+}
